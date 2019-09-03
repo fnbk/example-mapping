@@ -5,7 +5,7 @@ Example Mappings are workshops that help teams to create well defined user stori
 ![](images/example-mapping.png)
 
 
-**Acceptance Tests** and **Example Mapping** at the Socrates Converence 2019: [more details](Socrates-Conference.md)
+**Acceptance Tests** and **Example Mapping** at the Socrates Conference 2019: [more details](Socrates-Conference.md)
 
 source:
 https://cucumber.io/blog/example-mapping-introduction/
