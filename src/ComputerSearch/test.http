@@ -1,0 +1,35 @@
+
+
+#
+# setup
+#
+
+```
+docker build --tag computer-search .
+docker run -it -p 8001:80 computer-search
+```
+
+#
+# config
+#
+
+@endpoint = http://localhost:8001
+
+#
+# valid responses
+#
+
+###
+GET {{endpoint}}/api/ListIds?name=red
+###
+GET {{endpoint}}/api/GetComputer?id=12
+
+
+#
+# empty responses
+#
+
+###
+GET {{endpoint}}/api/ListIds?name=white
+###
+GET {{endpoint}}/api/GetComputer?id=99
